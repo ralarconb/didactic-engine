@@ -22,5 +22,6 @@ docker volume create --name m3repo
 git clone https://github.com/ralarconb/didactic-engine.git
 cd didactic-engine
 docker build -t springio/spring-boot-docker .
+docker run -d -p8080:8080 springio/spring-boot-docker
 curl http://localhost:8080/
 ```
