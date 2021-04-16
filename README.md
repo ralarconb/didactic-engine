@@ -17,3 +17,10 @@ java -jar target\spring-boot-docker-0.0.1-SNAPSHOT.jar
 ```sh
 docker build -t springio/spring-boot-docker .
 ```
+- Create volume
+```sh
+docker volume create --name m3repo
+git clone https://github.com/ralarconb/didactic-engine.git
+cd didactic-engine
+curl http://localhost:8080/
+```
