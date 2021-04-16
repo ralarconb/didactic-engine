@@ -16,7 +16,8 @@ java -jar target\spring-boot-docker-0.0.1-SNAPSHOT.jar
 - Clone the repository
 - Go into the project directory
 - Build the local image
-- Test the running application
+- Run the spring boot program
+- And finally test the running application
 ```sh
 git clone https://github.com/ralarconb/didactic-engine.git
 cd didactic-engine
