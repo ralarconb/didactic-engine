@@ -1,5 +1,5 @@
 # didactic-engine
-SpringBoot, Docker integration example.
+- This recipe shows how to integrate SpringBoot and Docker.
 # Build
 - Build the project
 - Run the app
